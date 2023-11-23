@@ -79,7 +79,7 @@
     app:layout_constraintStart_toStartOf="parent"
 app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="70dp"/>
-    <TextView
+    <Button
         android:id="@+id/forgotPassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -87,17 +87,20 @@ app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/loginbutton"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-
+android:backgroundTint="#ffffff"
+        android:textColor="@color/black"
         android:layout_marginTop="10dp"/>
-    <TextView
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/createAccount"
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Or Create a New Account"
         app:layout_constraintTop_toBottomOf="@+id/forgotPassword"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-
+        android:backgroundTint="#ffffff"
+        android:textColor="@color/black"
         android:layout_marginTop="5dp"
         />
 </androidx.constraintlayout.widget.ConstraintLayout>
